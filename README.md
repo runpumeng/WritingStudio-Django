@@ -1,25 +1,10 @@
-# Edit Dojo
-A web app to improve writing skills in any language.
+# Writing Studio
+A practice web app to improve writing skills in some language.
 
 ## Screenshots
-![Screenshot 1](landing_page_sample_1.png)
-![Screenshot 2](landing_page_sample_2.png)
+<img width="1300" alt="ShowPage1" src="https://github.com/runpumeng/WritingStudio-Django/assets/112782995/851a619e-96f1-4659-9f0b-58786511c7f6">
 
-## Inspiration
-The inspiration for this came from the lack of these kind of resources. You can find a ton of resources to master reading, listening or speaking a language. But when it comes to writing, there simply aren't much. 
-
-## How it works
-The app will function in these steps:
-1. A user A will sign up with 2 languages, one in which they are proficient(say, English) and the other which they want to learn(say, Japanese).
-2. Then they will write anything they need in, say, Japanese.
-3. A user B, who is proficient in Japanese, will then verify and propose corrections.
-4. Similarly if someone wants to learn English, user A can verify their messages.
-5. Everyone is happy.
-
-Initially the app will be based on twitter, that is, users will be editing tweets. Eventually, you will able to use this app without using Twitter at all!
-
-## Waiting list
-If you'd like to get an email when this website/app is ready, please sign up to our waitlist here: https://www.csdojo.io/wait
+<img width="1306" alt="ShowPage2" src="https://github.com/runpumeng/WritingStudio-Django/assets/112782995/7bb092b2-8512-4e2b-a753-e41731ea0d66">
 
 ## Pre-requisites
 We would need following installed in our system before we start with setting up the project in local machine.
@@ -30,8 +15,8 @@ We would need following installed in our system before we start with setting up 
 1. Clone this repository into local system and change the directory.
    
 ```sh
-git clone https://github.com/ykdojo/editdojo.git
-cd editdojo/
+git clone https://github.com/runpumeng/WritingStudio-Django.git
+cd WritingStudio-Django/
 ```
 2. Install pip3 and pipenv.
 
@@ -83,17 +68,3 @@ python manage.py runserver
 ```
 
 7. Start the application opening the link shown in your terminal on a browser.
-
-## Resources
-This is a part of the series of YouTube videos demonstrating how to build a real startup using Python and Javascript.
-Useful resources for this project:
-- YouTube video link: https://www.youtube.com/watch?v=UyQn0BhVqNU
-- Slack group and more info: https://www.csdojo.io/edit
-- Waiting list for this app: https://www.csdojo.io/wait
-- Recommended Django book for beginners: http://csdojo.io/dj (It's a referral link. When you buy a copy from this link, YK gets paid a little bit - which will help him continue working on this project full-time.)
-- Sample chapters of this book: https://djangoforbeginners.com/
-
-### Created by
-The project was started by: YK Sugi. He's the guy who's running CS Dojo, a programming education YouTube channel.
-
-If you have any questions related to this project, please contact him on our Slack group.
